@@ -1,0 +1,37 @@
+/*meta*/
+
+ul{
+    list-style: none;
+}
+
+
+/*temporary*/
+
+.rainbowflag{
+    width: 15%;
+}
+
+.transflag{
+    width: 15%;
+}
+
+.transflag_article{
+    width: 10%;
+}
+
+p img{
+    width : 2em;
+}
+
+#banner{
+    width: 100%;
+}
+
+#menu{
+    width: 10%;
+    border-radius: 50%;
+}
+
+body{
+    background: #F4A8B7;
+}

@@ -1,18 +1,24 @@
 /*meta*/
 
+*{
+    margin: 0;
+    padding: 0;
+}
+
 ul{
     list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
 }
 
 
 /*temporary*/
 
-.rainbowflag{
-    width: 15%;
-}
-
-.transflag{
-    width: 15%;
+#supports img{
+    width: 20%;
 }
 
 .transflag_article{
@@ -27,11 +33,26 @@ p img{
     width: 100%;
 }
 
-#menu{
+body *{
+    width: 75%;
+    margin: auto;
+}
+
+#transkids_logo{
     width: 10%;
     border-radius: 50%;
+    border-style: solid;
+    border-color: #FAD6DD;
+    border-width: 0.5em;
 }
+
+/*main*/
 
 body{
     background: #F4A8B7;
+}
+
+main{
+    background: #00569D;
+    color: white;
 }

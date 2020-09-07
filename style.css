@@ -1,8 +1,9 @@
 /*meta*/
 
 *{
-    margin: 0;
-    padding: 0;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 ul{
@@ -14,16 +15,19 @@ a{
     color: inherit;
 }
 
+@font-face {
+    font-family: kiddos;
+    src: url(./fonts/Kiddos-Demo.ttf);
+}
+
 
 /*temporary*/
 
 #supports img{
-    width: 20%;
+    width: 100%;
 }
 
-.transflag_article{
-    width: 10%;
-}
+
 
 p img{
     width : 2em;
@@ -31,28 +35,184 @@ p img{
 
 #banner{
     width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
 }
 
-body *{
-    width: 75%;
-    margin: auto;
+header{
+    margin: 0;
+    padding: 0;
 }
+
 
 #transkids_logo{
     width: 10%;
     border-radius: 50%;
-    border-style: solid;
-    border-color: #FAD6DD;
-    border-width: 0.5em;
+
 }
+
+
 
 /*main*/
 
 body{
-    background: #F4A8B7;
+    background: rgb(244,168,183);
+    background: linear-gradient(90deg, rgba(244,168,183,1) 0%, rgba(244,168,183,1) 14.5%, rgba(0,86,157,1) 14.5%);
 }
 
+
+
 main{
-    background: #00569D;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background: #64C7F3;
     color: white;
+    width: 80%;
+    margin: 0 auto 0 auto;
+    text-align: center;
+}
+
+main *{
+    padding: 1em 0 1em 0;
+    width: 70%;
+    font-family: kiddos;
+    letter-spacing: 0.2em;
+    font-size: xx-large;
+}
+
+blockquote{
+    background: #E67253;
+    float: right;
+    width: 10em;
+    height: 10em;
+    border-radius: 50%;
+    display: flex;
+    margin: 0 5% 0 0;
+    padding: 1.5em 1.5em 1.5em 1.5em;
+    align-items: center;
+    justify-content: center;
+    font-size: small;
+    font-weight: bold;
+    box-shadow: 0.3em 0.5em #FFE596;
+}
+
+blockquote *{
+    text-align: center;
+    font-family: kiddos;
+    letter-spacing: 0.2em;
+    font-size: 1.1em;
+}
+
+#articles{
+    background: #CCDDEF;
+    width: 80%;
+    margin: auto;
+}
+
+#articles ul{
+    width: 80%;
+    margin: auto;
+    padding: 0 0 2em 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#articles li{
+    padding: 1em 0 1em 0;
+    display: flex;
+    align-items: center;
+}
+
+#articles p{
+    display: inline-block;
+    font-size: large;
+    padding: 0 0 0 2em;
+}
+
+.transflag_article{
+    width: 8em;
+}
+
+#supports{
+    background: white;
+    padding: 2em 0 2em 0;
+    width: 80%;
+    margin: auto;
+}
+
+#supports ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#supports img{
+    width: 15em;
+}
+#supports img:hover{
+    opacity: 0.7;
+}
+
+#contact{
+    background: #FAD6DD;
+    width: 80%;
+    margin: auto;
+}
+
+#contact ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#contact li{
+    display: flex;
+    align-items: center;
+}
+
+
+#contact img{
+    width: 3em;
+    margin: 0 1em 0 0;
+}
+
+h3{
+    text-align: center;
+    padding: 2em 0 3em 0;
+    font-family: kiddos;
+    letter-spacing: 0.2em;
+    font-size: x-large;
+}
+
+#donate{
+    all: unset;
+    background: #FFE596; 
+    width: 8em;
+    text-align: center;
+    padding: 0.2em 0.2em 0.2em 0.2em;
+    font-family: kiddos;
+    letter-spacing: 0.2em;
+    font-size: x-large;
+    box-shadow:  0.2em 0.3em #8ACAB7;
+    margin: 2em auto 2em auto;
+}
+
+
+footer{
+    background: #E67253;
+    color: white;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding: 0.5em 0 0.5em 0;
+}
+
+footer *{
+    padding: 0.2em 0 0.2em 0;
 }

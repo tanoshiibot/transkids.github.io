@@ -205,6 +205,11 @@ h3{
     align-items: center;
 }
 
+#contact li a{
+    display: flex;
+    align-items: center;
+}
+
 
 #contact img{
     width: 3em;

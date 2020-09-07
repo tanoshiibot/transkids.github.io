@@ -128,26 +128,15 @@ h3{
     padding: 1em 1em 1em 1em;
     display: flex;
     align-items: center;
-    border-top-style: solid;
-    border-top-width: 1px;
-    border-top-color: #64c8f380;
-    border-bottom-style: solid;
-    border-bottom-width: 1px;
-    border-bottom-color: #64c8f380;
     font-size: large;
     color: #00569D;
 }
 
-#articles li:first-child a{
-    border-top-style: solid;
-    border-top-width: 2px;
-    border-top-color: #64c8f380;
-}
-
-#articles li:last-child a{
-    border-bottom-style: solid;
-    border-bottom-width: 2px;
-    border-bottom-color: #64c8f380;
+.border-css{
+    height: 2px;
+    width: 50%;
+    margin: auto;
+    background: linear-gradient(90deg, rgba(0,0,0,0) 0%, rgba(255,255,255,1) 50%, rgba(0,0,0,0) 100%);
 }
 
 #articles a:hover{
@@ -219,7 +208,7 @@ h3{
     font-family: kiddos;
     letter-spacing: 0.2em;
     font-size: xx-large;
-    box-shadow:  0.1em 0.15em #8ACAB7;
+    box-shadow:  0.1em 0.15em #CCDDEE;
     margin: 2em 0 2em 0;
 }
 

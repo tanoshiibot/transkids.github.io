@@ -11,7 +11,7 @@ J'ai fait ma maquette de site au papier et crayon, et j'essayerai la prochaine f
 
 J'ai appris un peu plus sur la sémantique HTML en faisant ce travail. J'espère que cette fois-ci, elle sera correcte.
 
-J'ai appris à bien utiliser le ```css display:flex``` grâce à cet exercice. Je me sens bien plus à l'aise pour faire ce que je veux. J'ai cependant eu des problèmes de margin avec mon header qui se sont résolus un peu magiquement, je regrette de ne pas comprendre comment je les ai réparés.
+J'ai appris à bien utiliser le ```display:flex``` grâce à cet exercice. Je me sens bien plus à l'aise pour faire ce que je veux. J'ai cependant eu des problèmes de margin avec mon header qui se sont résolus un peu magiquement, je regrette de ne pas comprendre comment je les ai réparés.
 
 
 ## Améliorations possibles

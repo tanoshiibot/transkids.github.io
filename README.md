@@ -20,7 +20,7 @@ J'aimerais apprendre à faire de vraies animations fluides avec CSS. J'imaginais
 
 J'ai essayé de mettre la citation entre le main et le #articles. Je n'ai pas réussi, bien que je n'y ai pas beaucoup chipoté.
 
-Il y a deux erreurs signalées quand je passe le html et le css sur le *W3C Markup Validation*, cependant ces deux erreurs me demandent d'annuler deux choses qui règlent mes problèmes. Sur le CSS, ça me signale que *all* n'est pas une *property*. Cependant, la ligne de code ```all: unset;``` m'a bien permis de retirer la décoration du bouton comme je l'ai vu dans un post sur *Stack Overflow*. Le deuxième problème est encore avec le bouton : on me signale que le <a> ne peut pas être parent de <button>, cependant c'est la seule manière que j'ai trouvée pour centrer correctement le bouton. En gros, ce bouton m'a pas mal ennuyée, mais je me suis accrochée pour ne pas le remplacer pas un <div>.
+Il y a deux erreurs signalées quand je passe le html et le css sur le *W3C Markup Validation*, cependant ces deux erreurs me demandent d'annuler deux choses qui règlent mes problèmes. Sur le CSS, ça me signale que *all* n'est pas une *property*. Cependant, la ligne de code ```all: unset;``` m'a bien permis de retirer la décoration du bouton comme je l'ai vu dans un post sur *Stack Overflow*. Le deuxième problème est encore avec le bouton : on me signale que le ```<a>``` ne peut pas être parent de ```<button>```, cependant c'est la seule manière que j'ai trouvée pour centrer correctement le bouton. En gros, ce bouton m'a pas mal ennuyée, mais je me suis accrochée pour ne pas le remplacer pas un ```<div>```.
   
 ## Merci
 

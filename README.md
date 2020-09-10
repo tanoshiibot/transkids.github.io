@@ -4,6 +4,8 @@ Exercice d'HTML : création d'une page pour une association.
 
 J'ai choisi de créer une page pour l'association Transkids, une ASBL qui aide les parents d'enfants transgenres à accepter la transidentité de leurs enfants, et aux enfants transgenres de s'accepter eux-même. Je n'ai aucunement demandé l'autorisation à Transkids pour faire cette page, il s'agit d'un exercice et je n'ai fait que les choisir comme thème. J'espère que cela ne posera pas de soucis, dans quel cas je modifierai sans soucis.
 
+Pour accéder à la page, cliquez [ici](https://tanoshiibot.github.io/transkids.github.io/)
+
 
 ## Commentaires de développement
 
